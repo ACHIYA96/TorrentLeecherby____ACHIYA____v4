@@ -1,7 +1,7 @@
-# for support join here [TorrentLeech-Gdrive](https://telegram.dog/GBotStore)
-# working example group [Leech Here](https://telegram.dog/GBotStore)
+# For support join here [TorrentLeech-Gdrive](https://t.me/joinchat/C538algM5u3AXapMblO-aw)
+# Test
 
-# Telegram Torrent Leecher 🔥🤖
+# Telegram Torrent Leecher 
 
 A Telegram Torrent (and youtube-dl) Leecher based on [Pyrogram](https://github.com/pyrogram/pyrogram)
 
@@ -18,8 +18,8 @@ A Telegram Torrent (and youtube-dl) Leecher based on [Pyrogram](https://github.c
     ✓ You can also deploy this on your VPS
     ✓ Option to select either video will be uploaded as document or streamable
     ✓ Added /renewme command to clear the downloads which are not deleted automatically.
-    ✓ Added support for youtube playlist 😐
-    ✓
+    ✓ Added support for youtube playlist
+    
 
 ### Credit goes to SpEcHiDe for his Publicleech repo.
 
@@ -70,6 +70,7 @@ class Config(Config):
 * `DESTINATION_FOLDER`: Name of your folder in ur respective drive where you want to upload the files using the bot.
 
 * `OWNER_ID`: ID of the bot owner, He/she can be able to access bot in bot only mode too.
+
 
 ##### Set Rclone
 
@@ -158,9 +159,9 @@ and everythin except `[NAME]`
 
 * `/pytdl`: This command will download videos from youtube playlist link and will upload to telegram.
 
-* `/ytdl gdrive`: This will download and upload to your cloud.
+* `/ytdl gdrive`: This will download and upload to your GDrive.
 
-* `/pytdl gdrive`: This download youtube playlist and upload to your cloud.
+* `/pytdl gdrive`: This will download youtube playlists and upload to your GDrive.
 
 * `/leech`: This command should be used as reply to a magnetic link, a torrent link, or a direct link. [this command will SPAM the chat and send the downloads a seperate files, if there is more than one file, in the specified torrent]
 
@@ -250,11 +251,10 @@ sudo docker run TorrentLeech-Gdrive
 
 
 ## Credits, and Thanks to
-* [GautamKumar(me)](https://github.com/gautamajay52/TorrentLeech-Gdrive) 😬
+* [GautamKumar](https://github.com/gautamajay52/TorrentLeech-Gdrive) 😬
 * [SpEcHiDe](https://github.com/SpEcHiDe/PublicLeech) for his wonderful code😚
 * [Rclone Team](https://rclone.org) for theirs awesome tool☁️
 * [Dan Tès](https://telegram.dog/haskell) for his [Pyrogram Library](https://github.com/pyrogram/pyrogram)
 * [Robots](https://telegram.dog/Robots) for their [@UploadBot](https://telegram.dog/UploadBot)
 * [@AjeeshNair](https://telegram.dog/AjeeshNait) for his [torrent.ajee.sh](https://torrent.ajee.sh)
 * [@gotstc](https://telegram.dog/gotstc), @aryanvikash, [@HasibulKabir](https://telegram.dog/HasibulKabir) for their TORRENT groups
-* [![CopyLeft](https://telegra.ph/file/b514ed14d994557a724cb.jpg)](https://telegra.ph/file/fab1017e21c42a5c1e613.mp4 "CopyLeft Credit Video")
